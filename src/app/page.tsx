@@ -30,9 +30,13 @@ export default function Home() {
           Matematika srozumitelně a s nadhledem.
         </p>
         <p className="max-w-md text-base leading-7 text-neutral-500 dark:text-neutral-500">
-          Sem přibude krátké představení podcastu — o čem je, kdo ho dělá a
-          proč stojí za poslech. Epizody a další obsah budou brzy k
-          dispozici.
+          Podcast, který dělá z matematiky srozumitelný a občas i vtipný
+          zážitek — žádné biflování vzorců, jen dobré otázky a jasná
+          vysvětlení pro každého, koho čísla někdy vyděsila ve škole.
+        </p>
+        <p className="max-w-md text-base leading-7 text-neutral-500 dark:text-neutral-500">
+          První epizody vycházejí už brzy. Sledujte Matikast na Herohero nebo
+          YouTube, ať vám nic neuteče.
         </p>
 
         <div className="mt-4 flex flex-col gap-4 sm:flex-row">
@@ -55,8 +59,29 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="relative z-10 pb-8 text-sm text-neutral-400 dark:text-neutral-600">
-        © 2026 Matikast
+      <footer className="relative z-10 flex flex-col items-center gap-3 pb-8 text-sm text-neutral-400 dark:text-neutral-600">
+        <div className="flex items-center gap-4">
+          <a
+            href="https://herohero.co/matikast"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-colors hover:text-teal-600 dark:hover:text-teal-400"
+          >
+            Herohero
+          </a>
+          <span aria-hidden className="text-neutral-300 dark:text-neutral-700">
+            ·
+          </span>
+          <a
+            href="https://youtube.com/@matikast"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-colors hover:text-teal-600 dark:hover:text-teal-400"
+          >
+            YouTube
+          </a>
+        </div>
+        <span>© 2026 Matikast</span>
       </footer>
     </div>
   );
