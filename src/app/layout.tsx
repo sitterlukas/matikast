@@ -70,7 +70,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           </div>
 
           <footer className="relative z-10 flex flex-col items-center gap-3 pb-8 text-sm text-neutral-400 dark:text-neutral-600">
-            <div className="flex items-center gap-4">
+            <div className="flex flex-wrap items-center justify-center gap-4">
               <a
                 href="https://herohero.co/matikast"
                 target="_blank"
@@ -92,6 +92,48 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                 className="transition-colors hover:text-teal-600 dark:hover:text-teal-400"
               >
                 YouTube
+              </a>
+              <span
+                aria-hidden
+                className="text-neutral-300 dark:text-neutral-700"
+              >
+                ·
+              </span>
+              <a
+                href="https://www.instagram.com/matikastcz"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-colors hover:text-teal-600 dark:hover:text-teal-400"
+              >
+                Instagram
+              </a>
+              <span
+                aria-hidden
+                className="text-neutral-300 dark:text-neutral-700"
+              >
+                ·
+              </span>
+              <a
+                href="https://www.facebook.com/matikastcz"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-colors hover:text-teal-600 dark:hover:text-teal-400"
+              >
+                Facebook
+              </a>
+              <span
+                aria-hidden
+                className="text-neutral-300 dark:text-neutral-700"
+              >
+                ·
+              </span>
+              <a
+                href="https://x.com/matikastcz"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-colors hover:text-teal-600 dark:hover:text-teal-400"
+              >
+                X
               </a>
             </div>
             <span>© 2026 Matikast</span>
