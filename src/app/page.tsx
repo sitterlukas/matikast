@@ -32,7 +32,7 @@ export default function Home() {
           rel="noopener noreferrer"
           className="rounded-full bg-teal-600 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-teal-700"
         >
-          Poslouchat na Herohero
+          Sledovat na Herohero
         </a>
         <a
           href="https://youtube.com/@matikast"
