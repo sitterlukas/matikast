@@ -38,6 +38,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </Link>
             <nav className="flex items-center gap-6">
               <Link
+                href="/darek"
+                className="text-sm font-medium text-neutral-600 transition-colors hover:text-teal-600 dark:text-neutral-400 dark:hover:text-teal-400"
+              >
+                Dárek
+              </Link>
+              <Link
                 href="/kontakt"
                 className="text-sm font-medium text-neutral-600 transition-colors hover:text-teal-600 dark:text-neutral-400 dark:hover:text-teal-400"
               >
