@@ -42,14 +42,36 @@ export default function Home() {
           Sledovat na YouTube
         </a>
       </div>
-      <a
-        href="https://herohero.co/matikast/gifts"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-sm font-medium text-neutral-500 underline-offset-4 transition-colors hover:text-teal-600 hover:underline dark:text-neutral-500 dark:hover:text-teal-400"
-      >
-        Chcete dát dárek? Darujte předplatné Matikastu 🎁
-      </a>
+      <p className="max-w-md text-sm leading-7 text-neutral-500 dark:text-neutral-500">
+        Podpořte Matikast předplatným na Herohero:{" "}
+        <a
+          href="https://herohero.co/matikast/subscribe"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-teal-600 underline-offset-4 hover:underline dark:text-teal-400"
+        >
+          měsíční předplatné
+        </a>
+        ,{" "}
+        <a
+          href="https://herohero.co/matikast/subscribe/?plan=yearly"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-teal-600 underline-offset-4 hover:underline dark:text-teal-400"
+        >
+          roční předplatné
+        </a>{" "}
+        nebo{" "}
+        <a
+          href="https://herohero.co/matikast/gifts"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-teal-600 underline-offset-4 hover:underline dark:text-teal-400"
+        >
+          dárkové předplatné
+        </a>{" "}
+        pro někoho, komu chcete matematiku dopřát.
+      </p>
     </main>
   );
 }
