@@ -114,7 +114,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                 ·
               </span>
               <a
-                href="https://www.facebook.com/matikastcz"
+                href="https://www.facebook.com/people/Matikast/61593916472310/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-colors hover:text-teal-600 dark:hover:text-teal-400"
