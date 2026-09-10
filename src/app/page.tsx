@@ -35,7 +35,7 @@ export default function Home() {
           Sledovat na Herohero
         </a>
         <a
-          href="https://youtube.com/@matikast"
+          href="https://youtube.com/@matikastcz"
           target="_blank"
           rel="noopener noreferrer"
           className="rounded-full border border-neutral-300 px-6 py-3 text-sm font-semibold text-neutral-800 transition-colors hover:bg-neutral-100 dark:border-neutral-700 dark:text-neutral-200 dark:hover:bg-neutral-900"

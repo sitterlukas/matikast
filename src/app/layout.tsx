@@ -86,7 +86,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                 ·
               </span>
               <a
-                href="https://youtube.com/@matikast"
+                href="https://youtube.com/@matikastcz"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-colors hover:text-teal-600 dark:hover:text-teal-400"
