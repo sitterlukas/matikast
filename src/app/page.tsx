@@ -11,14 +11,13 @@ export default function Home() {
         Matematika srozumitelně a s nadhledem.
       </p>
       <p className="max-w-md text-base leading-7 text-neutral-500 dark:text-neutral-500">
-        Podcast, který dělá z matematiky srozumitelný a občas i vtipný
-        zážitek — žádné biflování vzorců, jen dobré otázky a jasná
-        vysvětlení pro každého, koho čísla někdy vyděsila ve škole.
+        Podcast, který dělá z matematiky srozumitelný a občas i vtipný zážitek —
+        žádné biflování vzorců, jen dobré otázky a jasná vysvětlení pro každého,
+        koho čísla někdy vyděsila ve škole.
       </p>
       <p className="max-w-md text-base leading-7 text-neutral-500 dark:text-neutral-500">
         Hodí se hlavně žákům, kteří se připravují na přijímačky na střední
-        školy, ale poslechne si ho klidně každý, kdo si chce matematiku
-        oblíbit.
+        školy, ale poslechne si ho klidně každý, kdo si chce matematiku oblíbit.
       </p>
       <p className="max-w-md text-base leading-7 text-neutral-500 dark:text-neutral-500">
         První epizody vycházejí už brzy. Sledujte Matikast na Herohero nebo
@@ -43,6 +42,14 @@ export default function Home() {
           Sledovat na YouTube
         </a>
       </div>
+      <a
+        href="https://herohero.co/matikast/gifts"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-sm font-medium text-neutral-500 underline-offset-4 transition-colors hover:text-teal-600 hover:underline dark:text-neutral-500 dark:hover:text-teal-400"
+      >
+        Chcete dát dárek? Darujte předplatné Matikastu 🎁
+      </a>
     </main>
   );
 }
